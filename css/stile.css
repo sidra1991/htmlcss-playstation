@@ -42,3 +42,24 @@
 .returnal-container {
     height: 100%;
 }
+
+/******************************** 6 carte ***************************/
+
+.rol{
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    height: auto;
+}
+
+/******************************  intestazione **********************/
+
+.phnl {
+    text-decoration: none;
+}
+
+/******************* playstation component ***********************/
+
+.btn-2-sezioni {
+    border-radius: 25px;
+}
