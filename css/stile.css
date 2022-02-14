@@ -1,0 +1,14 @@
+/**********************bottone*******************/
+
+.nav-btn {
+    background-color:#363636 ;
+    border-radius: 25px;
+    padding: 10px;
+    border: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+.nav-btn:hover {
+    border: 3px solid rgb(87, 86, 86);
+}
