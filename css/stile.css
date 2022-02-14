@@ -1,3 +1,10 @@
+:root{
+    --spot-big: url("../img/img/jumbo-bg.png");
+    --spot-game: url("../img/img/it-takes-two-hero-banner-desktop.jpg");
+
+}
+
+
 /**********************bottone*******************/
 
 .nav-btn {
@@ -11,4 +18,27 @@
 
 .nav-btn:hover {
     border: 3px solid rgb(87, 86, 86);
+}
+
+/*********************jumbo-spot*****************/
+
+.jumbo-spot {
+    background-image: var(--spot-big);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 80vh;
+    background-position:top, center;
+}
+
+.umbo-spot p {
+    word-wrap: break-word;
+}
+
+.btn-jumbo {
+    border-radius: 25px;
+}
+
+.returnal-container {
+    height: 100%;
 }
