@@ -63,3 +63,25 @@
 .btn-2-sezioni {
     border-radius: 25px;
 }
+
+@media only screen and ( max-width:768px ) {
+    
+    .dis-start{
+        justify-content: flex-start !important;
+    }
+    
+    .deleted {
+        display:none;
+    }
+}
+
+/********************** GAME IT TAKE ************************/
+
+.game-it-take {
+    background-image: var(--spot-game);
+    background-repeat: no-repeat;
+    color: white;
+    height: 80vh;
+}
+
+/********************* CARD GAME***********/
