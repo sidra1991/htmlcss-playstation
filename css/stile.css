@@ -10,14 +10,14 @@
 .nav-btn {
     background-color:#363636 ;
     border-radius: 25px;
-    padding: 10px;
+    padding:10px;
     border: none;
     color: white;
     box-sizing: border-box;
 }
 
-.nav-btn:hover {
-    border: 3px solid rgb(87, 86, 86);
+button:hover {
+    border: 3px double white ;
 }
 
 .dropdown-toggle::after {
@@ -26,6 +26,15 @@
     width: 0.8rem;
     height: 1rem;
     vertical-align: middle;
+}
+
+.sub-sezion-nav li::marker {
+    color: blue;
+    width: 1.5em;
+}
+
+.sub-sezion-nav li{
+    display: inline-block;
 }
 
 .mt-6 {
@@ -40,12 +49,23 @@
     max-width: 100px;
 }
 
+
 .nav-link {
     color: #999999 !important ;
 }
 
 .nav-link:hover {
     color: #4d4b4b !important ;
+}
+
+.link-giochi-nav:hover {
+    color: blue;
+}
+
+.navbar-light .navbar-toggler:hover {
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px 1px rgb(43, 43, 43);
+    
 }
 
 .dropdown-menu {
@@ -55,6 +75,14 @@
     margin: 0;
     padding: 0;
 }
+
+@media only screen and ( max-width:1000px){
+    .minimi-media{
+        margin-left: 50%;
+    }
+    
+}
+
 
 /*********************jumbo-spot*****************/
 
