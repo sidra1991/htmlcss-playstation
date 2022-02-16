@@ -1,9 +1,11 @@
 :root{
     --spot-big: url("../img/img/jumbo-bg.png");
     --spot-game: url("../img/img/it-takes-two-hero-banner-desktop.jpg");
-
 }
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /**********************bottone*******************/
 
@@ -118,6 +120,7 @@
 
 .up-hover:hover{
     transform: translate( 0, -20%);
+    transition: 1s;
 }
 
 /******************************  intestazione **********************/
@@ -163,6 +166,10 @@
 
 /********************** GAME IT TAKE ************************/
 
+.btn-jumbo-black:hover{
+    border: 3px double black;
+}
+
 .game-it-take {
     background-image: var(--spot-game);
     background-repeat: no-repeat;
@@ -171,14 +178,18 @@
 }
 
 /********************* CARD GAME***********/
-
+.bg-sezione-3 {
+    background-color: rgb(73, 72, 72);
+}
 /********************  PS4 **************/
 
 
 /******************** PLAY PLUS **********/
 
-.bg-sezione-3 {
-    background-color: gray;
+.btn-plus{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
 }
 
 /****************** SCONTI SU PLAY STORE*********/
@@ -188,6 +199,21 @@
 .bg-sezione-4 {
     background-color: blue;
     color: white;
+}
+
+.btn-now{
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.btn-now:hover{
+    border-radius: 50%;
+    border: 3px double black;
+    background-color: white;
+    color: black;
 }
 /******************** SOCIAL***************/
 
@@ -208,4 +234,8 @@ footer li{
 footer a{
     color: white;
     text-decoration: none;
+}
+
+footer a:hover{
+    color: white;
 }
