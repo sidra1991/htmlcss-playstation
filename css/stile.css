@@ -16,8 +16,8 @@
     box-sizing: border-box;
 }
 
-button:hover {
-    border: 3px double white ;
+.nav-btn:hover {
+    border: 3px double white;
 }
 
 .dropdown-toggle::after {
@@ -95,16 +95,16 @@ button:hover {
     background-position:top, center;
 }
 
-.umbo-spot p {
-    word-wrap: break-word;
-}
-
 .btn-jumbo {
     border-radius: 25px;
 }
 
 .returnal-container {
     height: 100%;
+}
+
+.btn-danger:hover{
+    border: 3px double white;
 }
 
 /******************************** 6 carte ***************************/
@@ -116,13 +116,35 @@ button:hover {
     height: auto;
 }
 
+.up-hover:hover{
+    transform: translate( 0, -20%);
+}
+
 /******************************  intestazione **********************/
+.btn-primary:hover{
+    border: 3px double white;
+}
+
 
 .phnl {
     text-decoration: none;
 }
 
 /******************* playstation component ***********************/
+
+.special-component{
+    filter: opacity(30%)
+}
+
+.special-component-fisso{
+    border-bottom: 2px solid blue;
+    filter: none;
+}
+
+.special-component:hover {
+    border-bottom: 2px solid blue;
+    filter: none;
+}
 
 .btn-2-sezioni {
     border-radius: 25px;
