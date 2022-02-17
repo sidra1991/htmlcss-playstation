@@ -31,12 +31,10 @@
     vertical-align: middle;
 }
 
-.sub-sezion-nav li::marker {
-    color: blue;
-    width: 1.5em;
-}
 
 .sub-sezion-nav li{
+    width: 100px;
+    list-style-type: disc;
     display: inline-block;
 }
 
