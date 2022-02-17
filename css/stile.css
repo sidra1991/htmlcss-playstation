@@ -16,6 +16,7 @@
     border: none;
     color: white;
     box-sizing: border-box;
+    border: 3px double transparent;
 }
 
 .nav-btn:hover {
@@ -99,6 +100,7 @@
 
 .btn-jumbo {
     border-radius: 25px;
+    border: 3px double transparent;
 }
 
 .returnal-container {
@@ -128,6 +130,9 @@
     border: 3px double white;
 }
 
+.btn-primary{
+    border: 3px double transparent;
+}
 
 .phnl {
     text-decoration: none;
@@ -136,7 +141,8 @@
 /******************* playstation component ***********************/
 
 .special-component{
-    filter: opacity(30%)
+    filter: opacity(30%);
+    border-bottom: 2px solid transparent;
 }
 
 .special-component-fisso{
@@ -170,6 +176,11 @@
     border: 3px double black;
 }
 
+.btn-jumbo-black{
+    border: 3px double transparent;
+}
+
+
 .game-it-take {
     background-image: var(--spot-game);
     background-repeat: no-repeat;
@@ -201,16 +212,18 @@
     color: white;
 }
 
+
 .btn-now{
     display: inline-block;
     padding: 5px;
     text-decoration: none;
     color: black;
+    border: 3px double transparent;
+    border-radius: 50%;
     background-color: white;
 }
 
 .btn-now:hover{
-    border-radius: 50%;
     border: 3px double black;
     background-color: white;
     color: black;
